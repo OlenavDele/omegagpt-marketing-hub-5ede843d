@@ -11,12 +11,13 @@ const Header = () => {
       className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-background/80 border-b border-border/50"
     >
       <div className="container mx-auto px-6 h-16 flex items-center justify-between">
-        <Link to="/" className="flex items-center">
+        <Link to="/" className="flex items-center gap-2">
           <img 
             src={omegaLogo} 
             alt="OmegaGPT" 
             className="h-10 w-auto"
           />
+          <span className="font-display font-semibold text-lg text-foreground">OmegaGPT</span>
         </Link>
         
         <div className="flex items-center gap-6">
